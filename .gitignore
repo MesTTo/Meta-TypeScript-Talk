@@ -1,0 +1,27 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+zod
+
+# LemmaScript generated artifacts (regenerable via `pnpm verify`)
+verification/*.dfy
+verification/*.dfy.gen
+verification/*.lean
+
+# TypeDoc output (per-package)
+packages/*/docs/
+
+# Internal design notes, specs, and implementation plans (not part of the public release)
+docs/superpowers/
+
+# Internal working notes (not part of the public release)
+todo.md
+todo-review.md
+
+# Playwright MCP scratch artifacts
+.playwright-mcp/
+
+# VitePress build output
+website/.vitepress/dist/
+website/.vitepress/cache/
